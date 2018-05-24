@@ -1,0 +1,31 @@
+{
+  "name": "comm-db",
+  "version": "0.0.1",
+  "description": "inter app communication",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "browserify test/index.js > bundle.js",
+    "test": "budo test/index.js:bundle.js --live --ssl --cors --open"
+  },
+  "keywords": [
+    "db",
+    "database",
+    "communication",
+    "comm",
+    "events",
+    "event",
+    "emitter",
+    "api"
+  ],
+  "contributors": [
+    {
+      "name": "Alexander Praetorius",
+      "url": "https://github.com/serapath",
+      "email": "dev@serapath.de"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^11.2.1"
+  }
+}
